@@ -1,68 +1,46 @@
-*.gem
-.bundle
-.sass-cache
+# Ignore docs files
+_gh_pages
 _site
-_img
-Gemfile.lock
-/.idea/
-npm-debug.log
+.ruby-version
+.sass-cache
+.jekyll-cache
 
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
 
-# OS Generated files #
-######################
-*.DS_Store
+# OS or Editor folders
 .DS_Store
-.DS_store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+._*
 Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
 
-# SASS #
-########
-.sass-cache/
-*.css.map
+# Komodo
+*.komodoproject
+.komodotools
 
-# Jekyll #
-##########
-_site/
-.jekyll-metadata
+# grunt-html-validation
+validation-status.json
+validation-report.json
 
-# Ruby #
-########
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
-
-# Used by dotenv library to load environment variables.
-# .env
-
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
-*.bridgesupport
-build-iPhoneOS/
-build-iPhoneSimulator/
-
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
-
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
-
-# Folders to ignore #
-#####################
-bower_components
+# Folders to ignore
 node_modules
 
-_algolia_api_key
+# Ruby gems
+*.gem
