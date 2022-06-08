@@ -3,6 +3,7 @@ layout: post
 title: Machine Learning
 tags: mathjax
 author: Maple Quan
+math: true
 data: 2022-06-08 13:56 +0800
 ---
 
