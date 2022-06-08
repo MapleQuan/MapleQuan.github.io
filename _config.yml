@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: Blog of Quan
+description: Everyday is a new start
+url: https://maplequan.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -36,7 +36,7 @@ social:
   name: Songzi Vong
   links:
     - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/maplequan
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Guohai Quan
+  url: https://github.com/maplequan/
+  email: qgh0812@qq.com
