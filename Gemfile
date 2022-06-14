@@ -1,4 +1,9 @@
-source "https://rubygems.org"
-gemspec
+source 'https://rubygems.org'
 
-gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll'
+
+group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jemoji"
+end
